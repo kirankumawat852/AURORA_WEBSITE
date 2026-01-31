@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora | Home</title>
+  <link rel="stylesheet" href="static/css/home.css">
+  
+</head>
+<body>
+
+  <header>
+    <strong style="color:white">Aurora</strong>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <button class="toggle" onclick="toggleTheme()">🌙 / ☀️</button>
+    </nav>
+  </header>
+
+  <div id="home" class="hero">
+    <div>
+      <h1>Northern Lights</h1>
+      <p>A calm light–dark themed website inspired by aurora skies, silence of snow, and cosmic beauty.</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Aurora Theme. Designed with ❄️ & ✨
+  </footer>
+
+  <link rel="import" href="about.html">
+  <link rel="import" href="contact.html">
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+
+</body>
+</html>
